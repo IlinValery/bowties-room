@@ -10,7 +10,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Item from "./Components/Item";
 library.add(faShoppingCart);
 
-const image0 = require('./images/item0.png');
+const image0 = require('./images/item0.jpg');
+const image1 = require('./images/item1.jpg');
 
 
 export default class App extends React.Component {
@@ -20,7 +21,8 @@ export default class App extends React.Component {
 
     this.state={
         items: [
-            {id:0, name: "A Math Bow Tie", image:image0, description:"An elegant bow tie for a smart guy."},
+            {id:0, name: "A Math Bow Tie 1", image:image0, description:"An elegant bow tie for a smart guy."},
+            {id:1, name: "A Math Bow Tie 2", image:image1, description:"An elegant bow tie for a smart guy."},
         ]
     }
 
