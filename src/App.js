@@ -58,7 +58,9 @@ export default class App extends React.Component {
                     <Col/>
                 </Row>
                 <Row>
+                    <Col/>
                     {this.renderElemets(this.state.items)}
+                    <Col/>
                 </Row>
                 <Row style={{marginTop:"32px"}}>
                     <Col/>
