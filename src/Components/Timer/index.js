@@ -58,15 +58,15 @@ export default class ExpTimer extends React.Component {
         if (this.state.isOver){
             return (
                 <Alert color={"success"}  className={"text-center"}>
-                    <h5 className={"text-center"}>Our shop was closed</h5>
+                    <h3 className={"text-center"}>Our shop was closed</h3>
                 </Alert>
 
             );
         } else {
             return (
                 <Alert color={"danger"}  className={"text-center"}>
-                    <h5 className={"text-center"}>Our shop will be closed in</h5>
-                    <h4>{this.renderRemainingTime(this.state.milisecsRemaining)}</h4>
+                    <h3 className={"text-center"}>Our shop will be closed in</h3>
+                    <h3>{this.renderRemainingTime(this.state.milisecsRemaining)}</h3>
                 </Alert>
 
             );
