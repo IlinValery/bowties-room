@@ -3,9 +3,10 @@ body{
 }
 .App-container{
     padding: 10px !important;
-    background: url('./images/background.jpg') no-repeat !important;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 1);
+    min-height: 100vh;
+    height: 100% !important;
+    background: url('./images/background.jpg');
+    background-size: 500px auto;
 }
 .content-container{
     padding: 32px;

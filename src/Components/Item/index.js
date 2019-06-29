@@ -17,7 +17,7 @@ export default class Item extends React.Component {
 
     render() {
         return (
-            <Col sm={"4"} xs={"12"} lg={"3"}>
+            <Col sm={"4"} xs={"12"} lg={"3"} style={{marginBottom: "16px"}}>
                 <Card className={"text-center"} body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                     <CardImg top width="50%" src={this.props.image} alt={this.props.iname} />
                     <CardBody>
