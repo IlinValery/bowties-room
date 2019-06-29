@@ -14,7 +14,7 @@ const image0 = require('./images/item0.jpg');
 const image1 = require('./images/item1.jpg');
 const image2 = require('./images/item2.jpg');
 
-const team_img = require('./images/team.jpg');
+const team_img = require('./images/team.JPG');
 
 export default class App extends React.Component {
 
