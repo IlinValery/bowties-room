@@ -2,7 +2,7 @@
   "name": "showroom",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sciencishbowties.github.io/showroom",
+  "homepage": "http://sciencishbowties.github.io/bowties-room",
   "dependencies": {
     "materialize-css": "^1.0.0",
     "react": "^16.8.6",
