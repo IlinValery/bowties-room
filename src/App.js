@@ -12,6 +12,7 @@ library.add(faShoppingCart);
 
 const image0 = require('./images/item0.jpg');
 const image1 = require('./images/item1.jpg');
+const image2 = require('./images/item2.jpg');
 
 
 export default class App extends React.Component {
@@ -21,8 +22,10 @@ export default class App extends React.Component {
 
     this.state={
         items: [
-            {id:0, name: "A Math Bow Tie 1", image:image0, description:"An elegant bow tie for a smart guy."},
-            {id:1, name: "A Math Bow Tie 2", image:image1, description:"An elegant bow tie for a smart guy."},
+            {id:2, name: "A Science Bow Tie", image:image2, description:"Top bow tie :)"},
+            {id:0, name: "A Math Bow Tie (Stokes' theorem)", image:image0, description:"An elegant bow tie for a smart guy."},
+            {id:1, name: "A Math Bow Tie (Hopf fabration)", image:image1, description:"An elegant bow tie for a smart guy."},
+
         ]
     }
 
@@ -55,11 +58,7 @@ export default class App extends React.Component {
                     <Col/>
                 </Row>
                 <Row>
-                    <Col/>
-
                     {this.renderElemets(this.state.items)}
-                    <Col/>
-
                 </Row>
                 <Row style={{marginTop:"32px"}}>
                     <Col/>
