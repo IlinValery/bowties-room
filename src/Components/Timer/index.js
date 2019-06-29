@@ -1,6 +1,10 @@
 import React from 'react';
 import './style.css'
 import Alert from "reactstrap/es/Alert";
+import Row from "reactstrap/es/Row";
+import Col from "reactstrap/es/Col";
+import Button from "reactstrap/es/Button";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export default class ExpTimer extends React.Component {
 
@@ -34,7 +38,7 @@ export default class ExpTimer extends React.Component {
 
     componentWillMount() {
         let cur_date = new Date();
-        let exp_date = new Date(2019, 5,29,23,59,59);
+        let exp_date = new Date(2019, 5,29,22,30,0);
 
         let milisecsRemaining = exp_date-cur_date;
         this.setState({
@@ -67,6 +71,13 @@ export default class ExpTimer extends React.Component {
                 <Alert color={"danger"}  className={"text-center"}>
                     <h3 className={"text-center"}>Our shop will be closed in</h3>
                     <h3>{this.renderRemainingTime(this.state.milisecsRemaining)}</h3>
+                    <Row style={{marginTop:"10px"}}>
+                        <Col/>
+                        <Col xl={"6"} sm={"12"} className={"text-center"}>
+                            <Button size={"lg"} color={"primary"} href={"https://vk.com/market-183933258"}><FontAwesomeIcon icon={"shopping-cart"} style={{marginRight: "8px"}}/>Start shopping!</Button>
+                        </Col>
+                        <Col/>
+                    </Row>
                 </Alert>
 
             );

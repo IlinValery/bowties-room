@@ -14,6 +14,7 @@ const image0 = require('./images/item0.jpg');
 const image1 = require('./images/item1.jpg');
 const image2 = require('./images/item2.jpg');
 
+const team_img = require('./images/team.jpg');
 
 export default class App extends React.Component {
 
@@ -25,7 +26,7 @@ export default class App extends React.Component {
             {id:2, name: "A Science Bow Tie", image:image2, description:"Top bow tie :)"},
             {id:0, name: "A Math Bow Tie (Stokes' theorem)", image:image0, description:"An elegant bow tie for a smart guy."},
             {id:3, name: "A Steam Punk Bow Tie", image:image1, description:"An super elegant bow tie :)"},
-            {id:1, name: "A Math Bow Tie (Hopf fabration)", image:image1, description:"An elegant bow tie for a smart guy."},
+            {id:1, name: "A Math Bow Tie (Hopf fibration)", image:image1, description:"An elegant bow tie for a smart guy."},
 
         ]
     }
@@ -68,13 +69,33 @@ export default class App extends React.Component {
                     </Col>
                     <Col/>
                 </Row>
-                <Row style={{marginTop:"32px"}}>
+                <h2 className={"text-center"} style={{marginTop: "8px",marginBottom: "10px", color: "white" }}><b>Our team</b></h2>
+                <Row>
                     <Col/>
-                    <Col xl={"6"} sm={"12"} className={"text-center"}>
-                        <Button size={"lg"} color={"primary"} href={"https://vk.com/market-183933258"}><FontAwesomeIcon icon={"shopping-cart"} style={{marginRight: "8px"}}/>Start shopping!</Button>
+                    <Col className={"text-center"} sm={"12"} md={5}>
+                        <img className={"img-fluid"} src={String(team_img)} alt={"Our team photo"}/>
+                    </Col>
+                    <Col md={4}>
+                        <ul style={{color: "white", fontSize: "18pt"}}>
+                            <li>Ekaterina Nguyen</li>
+                            <li>Zlata Besedovskaya</li>
+                            <li>Anastasia Zvorykina</li>
+                            <li>Valery Ilin</li>
+                            <li>Daniil Svirskiy</li>
+                        </ul>
                     </Col>
                     <Col/>
                 </Row>
+                <h2 className={"text-center"} style={{marginTop: "32px",marginBottom: "10px", color: "white" }}><b>Contacts</b></h2>
+                <Row>
+                    <Col/>
+                    <Col sm={12} md={4}>
+                        <Button block color={"primary"} href={"mailto: sciencishbowties@gmail.com"}>Sent an email</Button>
+                        <Button block color={"primary"} href={"https://vk.com/sciencishbowties"}>VK Group</Button>
+                    </Col>
+                    <Col/>
+                </Row>
+
 
             </div>
 
