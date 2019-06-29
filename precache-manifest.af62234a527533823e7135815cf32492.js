@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e79cfb285bd64201b4b263b9176ca60",
+    "revision": "24a12eb13e593ebf4418dc3cacf7b02b",
     "url": "/bowties-room/index.html"
   },
   {
-    "revision": "76ba15987ee8ace543cb",
+    "revision": "7c15246b18da6a75dadb",
     "url": "/bowties-room/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "7efcd94062f704269405",
-    "url": "/bowties-room/static/css/main.dbca591f.chunk.css"
+    "revision": "b5042372a77c2c8e729d",
+    "url": "/bowties-room/static/css/main.b891a2db.chunk.css"
   },
   {
-    "revision": "76ba15987ee8ace543cb",
-    "url": "/bowties-room/static/js/2.9c3e7bb2.chunk.js"
+    "revision": "7c15246b18da6a75dadb",
+    "url": "/bowties-room/static/js/2.314c7f4b.chunk.js"
   },
   {
-    "revision": "7efcd94062f704269405",
-    "url": "/bowties-room/static/js/main.1a3a3d20.chunk.js"
+    "revision": "b5042372a77c2c8e729d",
+    "url": "/bowties-room/static/js/main.a37836b2.chunk.js"
   },
   {
     "revision": "84912b72459e352ddddf",
@@ -38,6 +38,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4a10320df40f8423a369df6c10d96f7e",
     "url": "/bowties-room/static/media/item2.4a10320d.jpg"
+  },
+  {
+    "revision": "49c801378c2fc92dc668f8a231e28fa8",
+    "url": "/bowties-room/static/media/item3.49c80137.jpg"
+  },
+  {
+    "revision": "e236a5e8056ca35dbb0aa24338c26a16",
+    "url": "/bowties-room/static/media/item4.e236a5e8.jpg"
+  },
+  {
+    "revision": "b37e65648be91bf8a1bc96e10b4226f7",
+    "url": "/bowties-room/static/media/item5.b37e6564.jpg"
   },
   {
     "revision": "9b87a858fd72de2311f509b16feaa917",
