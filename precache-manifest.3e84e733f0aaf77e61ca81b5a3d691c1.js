@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f748d7ee7915c4f31493c3d36d516adb",
+    "revision": "c553b597aa92f7017b51dd6ac4d75fd1",
     "url": "/bowties-room/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bowties-room/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "d9592c9e30b6aa9bcb4f",
+    "revision": "04ef3485e31a107ed169",
     "url": "/bowties-room/static/css/main.ca845ee5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bowties-room/static/js/2.587ac145.chunk.js"
   },
   {
-    "revision": "d9592c9e30b6aa9bcb4f",
-    "url": "/bowties-room/static/js/main.70fb3c5d.chunk.js"
+    "revision": "04ef3485e31a107ed169",
+    "url": "/bowties-room/static/js/main.e986da14.chunk.js"
   },
   {
     "revision": "84912b72459e352ddddf",
