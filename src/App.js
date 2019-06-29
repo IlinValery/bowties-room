@@ -81,7 +81,7 @@ export default class App extends React.Component {
                             <li>Zlata Besedovskaya</li>
                             <li>Anastasia Zvorykina</li>
                             <li>Valery Ilin</li>
-                            <li>Daniil Svirskiy</li>
+                            <li>Daniil Svirskii</li>
                         </ul>
                     </Col>
                     <Col/>
